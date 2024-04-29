@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face{
+    font-family: Orbitron;
+    src: url(Font/Orbitron-VariableFont_wght.ttf);
+}
 
 body {
     margin: 0;
     padding: 0;
     background-color: black;
+    font-family: "Orbitron", sans-serif;
 }
 
 #canvas {
@@ -201,7 +206,6 @@ body {
     color: white;
     font-size: 5vw;
     letter-spacing: 2%;
-    font-family: monospace;
     border-right: 5px solid;
     width: 100vw;
     white-space: nowrap;
